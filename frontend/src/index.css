@@ -1,0 +1,78 @@
+/* =============================================================
+   DESIGN TOKENS
+   A calm, clinical palette for a documentation-grounded
+   assistant embedded in enterprise EMR software.
+   ============================================================= */
+
+:root {
+  /* --- Color --- */
+  --ink: #101b2c;              /* primary text, header surface */
+  --ink-soft: #223047;         /* secondary surface on ink */
+  --canvas: #eef1f4;           /* page backdrop */
+  --surface: #ffffff;          /* cards, panels */
+  --surface-muted: #f6f8f9;    /* message thread backdrop */
+
+  --teal: #0e6e5d;             /* primary brand accent */
+  --teal-strong: #0a5548;
+  --teal-tint: #e4f3ef;
+  --teal-soft-text: #0b8571;
+
+  --amber: #b5762a;            /* "grounded in docs" accent, used sparingly */
+  --amber-tint: #fbf1e4;
+
+  --line: #dfe4e8;
+  --line-soft: #ebeef1;
+
+  --text: #16212f;
+  --text-muted: #5b6472;
+  --text-faint: #8891a0;
+
+  /* --- Type --- */
+  --font-display: "Space Grotesk", "Segoe UI", sans-serif;
+  --font-body: "Public Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  color: var(--text);
+  font-family: var(--font-body);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--canvas);
+}
+
+button,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus-visible,
+textarea:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

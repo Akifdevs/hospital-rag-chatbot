@@ -1,0 +1,512 @@
+[
+  {
+    "chunk_id": "service-order-section",
+    "document": "service-order-rag.md",
+    "heading": "Service Order Section",
+    "heading_level": 1,
+    "heading_path": [
+      "Service Order Section"
+    ],
+    "content": "**Module:** Service Order Section\\\n**Description:** Order investigations, procedures, and packages from the\nconsultation screen\\\n**Version:** 1.0\\\n**Last Updated:** Apr 2026",
+    "text": "# Service Order Section\n\n**Module:** Service Order Section\\\n**Description:** Order investigations, procedures, and packages from the\nconsultation screen\\\n**Version:** 1.0\\\n**Last Updated:** Apr 2026",
+    "start_line": 1,
+    "end_line": 8
+  },
+  {
+    "chunk_id": "service-order-section-overview",
+    "document": "service-order-rag.md",
+    "heading": "Overview",
+    "heading_level": 2,
+    "heading_path": [
+      "Service Order Section",
+      "Overview"
+    ],
+    "content": "The Service Order Section is embedded in the patient consultation\nscreen. It allows clinicians and support staff to order Lab, Radiology,\nProcedure, Vaccine, Medicine, and Package services for a patient --- all\nfrom one place.",
+    "text": "# Service Order Section\n## Overview\n\nThe Service Order Section is embedded in the patient consultation\nscreen. It allows clinicians and support staff to order Lab, Radiology,\nProcedure, Vaccine, Medicine, and Package services for a patient --- all\nfrom one place.",
+    "start_line": 9,
+    "end_line": 16
+  },
+  {
+    "chunk_id": "service-order-section-overview-what-you-can-do-here",
+    "document": "service-order-rag.md",
+    "heading": "What you can do here",
+    "heading_level": 3,
+    "heading_path": [
+      "Service Order Section",
+      "Overview",
+      "What you can do here"
+    ],
+    "content": "-   Order any service type using **Search**, **Packages**, or **Order\n    Sets**.\n-   Use **Favorites** for quick access to frequently ordered services.\n-   View real-time **Insurance Rule Alerts** including hard blocks, soft\n    warnings, and information notes in Insurance mode.\n-   **Repeat** a previously ordered service with a note and custom\n    quantity.\n-   View **Lab Reports** and **Radiology PDF Reports** for completed\n    orders.\n-   Delete eligible orders or remove an entire package in one step.",
+    "text": "# Service Order Section\n## Overview\n### What you can do here\n\n-   Order any service type using **Search**, **Packages**, or **Order\n    Sets**.\n-   Use **Favorites** for quick access to frequently ordered services.\n-   View real-time **Insurance Rule Alerts** including hard blocks, soft\n    warnings, and information notes in Insurance mode.\n-   **Repeat** a previously ordered service with a note and custom\n    quantity.\n-   View **Lab Reports** and **Radiology PDF Reports** for completed\n    orders.\n-   Delete eligible orders or remove an entire package in one step.",
+    "start_line": 17,
+    "end_line": 29
+  },
+  {
+    "chunk_id": "service-order-section-overview-note-read-only-mode",
+    "document": "service-order-rag.md",
+    "heading": "Note: Read-Only Mode",
+    "heading_level": 3,
+    "heading_path": [
+      "Service Order Section",
+      "Overview",
+      "Note: Read-Only Mode"
+    ],
+    "content": "When a consultation is closed or locked, the **Order Services** button,\ndelete icons, and Repeat buttons are hidden. Orders can still be viewed\nand completed reports can still be opened.\n\n------------------------------------------------------------------------",
+    "text": "# Service Order Section\n## Overview\n### Note: Read-Only Mode\n\nWhen a consultation is closed or locked, the **Order Services** button,\ndelete icons, and Repeat buttons are hidden. Orders can still be viewed\nand completed reports can still be opened.\n\n------------------------------------------------------------------------",
+    "start_line": 30,
+    "end_line": 37
+  },
+  {
+    "chunk_id": "service-order-section-who-uses-this-section",
+    "document": "service-order-rag.md",
+    "heading": "Who Uses This Section",
+    "heading_level": 2,
+    "heading_path": [
+      "Service Order Section",
+      "Who Uses This Section"
+    ],
+    "content": "-----------------------------------------------------------------------\n  Role                                Primary Activities\n  ----------------------------------- -----------------------------------\n  Doctor / Clinician                  Orders services, reviews insurance\n                                      alerts, views completed reports\n\n  Nurse / Clinical Support            Places orders on behalf of the\n                                      doctor, monitors status\n\n  Receptionist / Admin                Views orders in read-only mode;\n                                      assists with package selection\n\n  Insurance Coordinator               Monitors authorization status and\n                                      pre-auth requirements per row\n  -----------------------------------------------------------------------\n\n------------------------------------------------------------------------",
+    "text": "# Service Order Section\n## Who Uses This Section\n\n-----------------------------------------------------------------------\n  Role                                Primary Activities\n  ----------------------------------- -----------------------------------\n  Doctor / Clinician                  Orders services, reviews insurance\n                                      alerts, views completed reports\n\n  Nurse / Clinical Support            Places orders on behalf of the\n                                      doctor, monitors status\n\n  Receptionist / Admin                Views orders in read-only mode;\n                                      assists with package selection\n\n  Insurance Coordinator               Monitors authorization status and\n                                      pre-auth requirements per row\n  -----------------------------------------------------------------------\n\n------------------------------------------------------------------------",
+    "start_line": 38,
+    "end_line": 57
+  },
+  {
+    "chunk_id": "service-order-section-ordering-services",
+    "document": "service-order-rag.md",
+    "heading": "Ordering Services",
+    "heading_level": 2,
+    "heading_path": [
+      "Service Order Section",
+      "Ordering Services"
+    ],
+    "content": "Click **+ Order Services** at the top-right of the panel to open the\nOrder Modal.\n\nThe modal has three tabs:\n\n  -----------------------------------------------------------------------\n  Tab                     Use When                How It Works\n  ----------------------- ----------------------- -----------------------\n  Search                  You know the service    Type to search; filter\n                          name or CPT code        by All, Lab, Radiology,\n                                                  or Procedure. Click +\n                                                  to add to the cart.\n\n  Packages                Patient needs a bundled Expand a package to\n                          package of services     preview included\n                                                  services, then click\n                                                  Select Package.\n\n  Order Sets              You want a              Search order sets,\n                          pre-configured group of expand to preview, and\n                          services                click Add to Order. All\n                                                  services in the set are\n                                                  added to the cart.\n  -----------------------------------------------------------------------",
+    "text": "# Service Order Section\n## Ordering Services\n\nClick **+ Order Services** at the top-right of the panel to open the\nOrder Modal.\n\nThe modal has three tabs:\n\n  -----------------------------------------------------------------------\n  Tab                     Use When                How It Works\n  ----------------------- ----------------------- -----------------------\n  Search                  You know the service    Type to search; filter\n                          name or CPT code        by All, Lab, Radiology,\n                                                  or Procedure. Click +\n                                                  to add to the cart.\n\n  Packages                Patient needs a bundled Expand a package to\n                          package of services     preview included\n                                                  services, then click\n                                                  Select Package.\n\n  Order Sets              You want a              Search order sets,\n                          pre-configured group of expand to preview, and\n                          services                click Add to Order. All\n                                                  services in the set are\n                                                  added to the cart.\n  -----------------------------------------------------------------------",
+    "start_line": 58,
+    "end_line": 84
+  },
+  {
+    "chunk_id": "service-order-section-ordering-services-using-favorites",
+    "document": "service-order-rag.md",
+    "heading": "Using Favorites",
+    "heading_level": 3,
+    "heading_path": [
+      "Service Order Section",
+      "Ordering Services",
+      "Using Favorites"
+    ],
+    "content": "1.  On the **Search** tab, click the **Favorites** button.\n2.  Your saved folders appear. Click a folder to expand it.\n3.  Click any service in the folder to add it directly to the cart.",
+    "text": "# Service Order Section\n## Ordering Services\n### Using Favorites\n\n1.  On the **Search** tab, click the **Favorites** button.\n2.  Your saved folders appear. Click a folder to expand it.\n3.  Click any service in the folder to add it directly to the cart.",
+    "start_line": 85,
+    "end_line": 90
+  },
+  {
+    "chunk_id": "service-order-section-ordering-services-confirming-the-order",
+    "document": "service-order-rag.md",
+    "heading": "Confirming the Order",
+    "heading_level": 3,
+    "heading_path": [
+      "Service Order Section",
+      "Ordering Services",
+      "Confirming the Order"
+    ],
+    "content": "1.  Review the cart in the right panel. Verify service names, types, and\n    quantities.\n2.  Click **Confirm Order**.\n3.  Orders are created and immediately appear in the relevant table.\n4.  Insurance rules are re-evaluated automatically in Insurance mode.",
+    "text": "# Service Order Section\n## Ordering Services\n### Confirming the Order\n\n1.  Review the cart in the right panel. Verify service names, types, and\n    quantities.\n2.  Click **Confirm Order**.\n3.  Orders are created and immediately appear in the relevant table.\n4.  Insurance rules are re-evaluated automatically in Insurance mode.",
+    "start_line": 91,
+    "end_line": 98
+  },
+  {
+    "chunk_id": "service-order-section-ordering-services-tip-duplicate-detection",
+    "document": "service-order-rag.md",
+    "heading": "Tip: Duplicate Detection",
+    "heading_level": 3,
+    "heading_path": [
+      "Service Order Section",
+      "Ordering Services",
+      "Tip: Duplicate Detection"
+    ],
+    "content": "If a service has already been ordered for this visit, a warning badge\nappears next to it in the search results. You can still add it. Use the\n**Repeat** action on the original row if you specifically want to create\nan audit-linked repeat order.",
+    "text": "# Service Order Section\n## Ordering Services\n### Tip: Duplicate Detection\n\nIf a service has already been ordered for this visit, a warning badge\nappears next to it in the search results. You can still add it. Use the\n**Repeat** action on the original row if you specifically want to create\nan audit-linked repeat order.",
+    "start_line": 99,
+    "end_line": 105
+  },
+  {
+    "chunk_id": "service-order-section-ordering-services-warning-pre-approval-limit",
+    "document": "service-order-rag.md",
+    "heading": "Warning: Pre-Approval Limit",
+    "heading_level": 3,
+    "heading_path": [
+      "Service Order Section",
+      "Ordering Services",
+      "Warning: Pre-Approval Limit"
+    ],
+    "content": "In Insurance mode, if the patient has a pre-approval limit and the order\nwould exceed it, a confirmation dialog appears before saving. You can\nacknowledge and continue or cancel to adjust the selection.\n\n------------------------------------------------------------------------",
+    "text": "# Service Order Section\n## Ordering Services\n### Warning: Pre-Approval Limit\n\nIn Insurance mode, if the patient has a pre-approval limit and the order\nwould exceed it, a confirmation dialog appears before saving. You can\nacknowledge and continue or cancel to adjust the selection.\n\n------------------------------------------------------------------------",
+    "start_line": 106,
+    "end_line": 113
+  },
+  {
+    "chunk_id": "service-order-section-reading-the-order-tables",
+    "document": "service-order-rag.md",
+    "heading": "Reading the Order Tables",
+    "heading_level": 2,
+    "heading_path": [
+      "Service Order Section",
+      "Reading the Order Tables"
+    ],
+    "content": "Orders are grouped into three separate tables. Each table can be sorted\nindependently.\n\n  -----------------------------------------------------------------------\n  Table                               Contains\n  ----------------------------------- -----------------------------------\n  Investigations (Lab & Radiology)    All Lab and Radiology orders\n\n  Procedures & Other Services         Procedures, Consultations,\n                                      Vaccines, Medicines, Other\n\n  Packages                            Orders that belong to a patient\n                                      package\n  -----------------------------------------------------------------------",
+    "text": "# Service Order Section\n## Reading the Order Tables\n\nOrders are grouped into three separate tables. Each table can be sorted\nindependently.\n\n  -----------------------------------------------------------------------\n  Table                               Contains\n  ----------------------------------- -----------------------------------\n  Investigations (Lab & Radiology)    All Lab and Radiology orders\n\n  Procedures & Other Services         Procedures, Consultations,\n                                      Vaccines, Medicines, Other\n\n  Packages                            Orders that belong to a patient\n                                      package\n  -----------------------------------------------------------------------",
+    "start_line": 114,
+    "end_line": 130
+  },
+  {
+    "chunk_id": "service-order-section-reading-the-order-tables-column-reference",
+    "document": "service-order-rag.md",
+    "heading": "Column Reference",
+    "heading_level": 3,
+    "heading_path": [
+      "Service Order Section",
+      "Reading the Order Tables",
+      "Column Reference"
+    ],
+    "content": "-----------------------------------------------------------------------\n  Column                              Description\n  ----------------------------------- -----------------------------------\n  \\#                                  Sequential row number within the\n                                      table\n\n  CPT Code                            Standard CPT billing code\n\n  Internal Code                       Facility's own service code\n\n  Service                             Service name plus Package, Order\n                                      Set, Repeated, or Insurance Alert\n                                      badges\n\n  Type                                Lab, Radiology, Procedure,\n                                      Consultation, Vaccine, or Medicine\n\n  Qty                                 Quantity ordered\n\n  Price                               Total price for this order line. It\n                                      may be hidden for the Doctor role.\n\n  Co-Pay                              Patient co-pay amount shown in\n                                      Insurance or Corporate mode only\n\n  Ordered                             Who placed the order and the\n                                      date/time\n\n  Status                              Current order lifecycle status\n\n  Coverage                            Cash, Covered, or Pre-Auth Required\n\n  Auth Status                         Authorization outcome with\n                                      authorization number in Insurance\n                                      mode\n\n  Actions                             Delete, View/Download Report, and\n                                      Repeat actions\n  -----------------------------------------------------------------------",
+    "text": "# Service Order Section\n## Reading the Order Tables\n### Column Reference\n\n-----------------------------------------------------------------------\n  Column                              Description\n  ----------------------------------- -----------------------------------\n  \\#                                  Sequential row number within the\n                                      table\n\n  CPT Code                            Standard CPT billing code\n\n  Internal Code                       Facility's own service code\n\n  Service                             Service name plus Package, Order\n                                      Set, Repeated, or Insurance Alert\n                                      badges\n\n  Type                                Lab, Radiology, Procedure,\n                                      Consultation, Vaccine, or Medicine\n\n  Qty                                 Quantity ordered\n\n  Price                               Total price for this order line. It\n                                      may be hidden for the Doctor role.\n\n  Co-Pay                              Patient co-pay amount shown in\n                                      Insurance or Corporate mode only\n\n  Ordered                             Who placed the order and the\n                                      date/time\n\n  Status                              Current order lifecycle status\n\n  Coverage                            Cash, Covered, or Pre-Auth Required\n\n  Auth Status                         Authorization outcome with\n                                      authorization number in Insurance\n                                      mode\n\n  Actions                             Delete, View/Download Report, and\n                                      Repeat actions\n  -----------------------------------------------------------------------",
+    "start_line": 131,
+    "end_line": 172
+  },
+  {
+    "chunk_id": "service-order-section-reading-the-order-tables-service-name-badges",
+    "document": "service-order-rag.md",
+    "heading": "Service Name Badges",
+    "heading_level": 3,
+    "heading_path": [
+      "Service Order Section",
+      "Reading the Order Tables",
+      "Service Name Badges"
+    ],
+    "content": "-   **Package Name** --- service belongs to a package.\n-   **Order Set** --- service was added through an Order Set.\n-   **Repeated** --- service has been repeated.",
+    "text": "# Service Order Section\n## Reading the Order Tables\n### Service Name Badges\n\n-   **Package Name** --- service belongs to a package.\n-   **Order Set** --- service was added through an Order Set.\n-   **Repeated** --- service has been repeated.",
+    "start_line": 173,
+    "end_line": 178
+  },
+  {
+    "chunk_id": "service-order-section-reading-the-order-tables-tip-package-price-rows",
+    "document": "service-order-rag.md",
+    "heading": "Tip: Package Price Rows",
+    "heading_level": 3,
+    "heading_path": [
+      "Service Order Section",
+      "Reading the Order Tables",
+      "Tip: Package Price Rows"
+    ],
+    "content": "For services that are part of a package, the Price cell shows\n**Included** and the Co-Pay cell shows **N/A** instead of numeric\nvalues.\n\n------------------------------------------------------------------------",
+    "text": "# Service Order Section\n## Reading the Order Tables\n### Tip: Package Price Rows\n\nFor services that are part of a package, the Price cell shows\n**Included** and the Co-Pay cell shows **N/A** instead of numeric\nvalues.\n\n------------------------------------------------------------------------",
+    "start_line": 179,
+    "end_line": 186
+  },
+  {
+    "chunk_id": "service-order-section-sorting-the-table",
+    "document": "service-order-rag.md",
+    "heading": "Sorting the Table",
+    "heading_level": 2,
+    "heading_path": [
+      "Service Order Section",
+      "Sorting the Table"
+    ],
+    "content": "Each of the three order tables supports independent column-level\nsorting.\n\n-   ↕ --- Unsorted\n-   ↑ --- Ascending\n-   ↓ --- Descending\n\n  Column    Sort Behaviour\n  --------- -------------------------------------------\n  Service   Alphabetical by service or test name\n  Type      Alphabetical by service type\n  Ordered   Chronological by order creation date/time\n  Status    Alphabetical by status label",
+    "text": "# Service Order Section\n## Sorting the Table\n\nEach of the three order tables supports independent column-level\nsorting.\n\n-   ↕ --- Unsorted\n-   ↑ --- Ascending\n-   ↓ --- Descending\n\n  Column    Sort Behaviour\n  --------- -------------------------------------------\n  Service   Alphabetical by service or test name\n  Type      Alphabetical by service type\n  Ordered   Chronological by order creation date/time\n  Status    Alphabetical by status label",
+    "start_line": 187,
+    "end_line": 202
+  },
+  {
+    "chunk_id": "service-order-section-sorting-the-table-how-to-sort",
+    "document": "service-order-rag.md",
+    "heading": "How to Sort",
+    "heading_level": 3,
+    "heading_path": [
+      "Service Order Section",
+      "Sorting the Table",
+      "How to Sort"
+    ],
+    "content": "1.  Click a sortable column header. The first click sorts ascending.\n2.  Click again to switch to descending.\n3.  Sorting is independent per table.\n\n------------------------------------------------------------------------",
+    "text": "# Service Order Section\n## Sorting the Table\n### How to Sort\n\n1.  Click a sortable column header. The first click sorts ascending.\n2.  Click again to switch to descending.\n3.  Sorting is independent per table.\n\n------------------------------------------------------------------------",
+    "start_line": 203,
+    "end_line": 210
+  },
+  {
+    "chunk_id": "service-order-section-status-and-coverage-reference-order-status",
+    "document": "service-order-rag.md",
+    "heading": "Order Status",
+    "heading_level": 3,
+    "heading_path": [
+      "Service Order Section",
+      "Status and Coverage Reference",
+      "Order Status"
+    ],
+    "content": "-----------------------------------------------------------------------\n  Status                              Meaning\n  ----------------------------------- -----------------------------------\n  Pending                             Order placed; not yet started\n\n  PreAuth Pending                     Pre-authorization requested from\n                                      insurer; awaiting response\n\n  In Progress                         Service is being performed\n\n  Completed                           Service fully completed; results or\n                                      report available\n\n  Cancelled                           Order was cancelled\n  -----------------------------------------------------------------------",
+    "text": "# Service Order Section\n## Status and Coverage Reference\n### Order Status\n\n-----------------------------------------------------------------------\n  Status                              Meaning\n  ----------------------------------- -----------------------------------\n  Pending                             Order placed; not yet started\n\n  PreAuth Pending                     Pre-authorization requested from\n                                      insurer; awaiting response\n\n  In Progress                         Service is being performed\n\n  Completed                           Service fully completed; results or\n                                      report available\n\n  Cancelled                           Order was cancelled\n  -----------------------------------------------------------------------",
+    "start_line": 213,
+    "end_line": 230
+  },
+  {
+    "chunk_id": "service-order-section-status-and-coverage-reference-coverage-types",
+    "document": "service-order-rag.md",
+    "heading": "Coverage Types",
+    "heading_level": 3,
+    "heading_path": [
+      "Service Order Section",
+      "Status and Coverage Reference",
+      "Coverage Types"
+    ],
+    "content": "-   **Cash** --- Patient pays the full cash price.\n-   **Covered** --- Insurer or Corporate covers the service; patient\n    pays co-pay where applicable.\n-   **Pre-Auth Required** --- Insurer prior authorization is required\n    before the service can be performed or invoiced.",
+    "text": "# Service Order Section\n## Status and Coverage Reference\n### Coverage Types\n\n-   **Cash** --- Patient pays the full cash price.\n-   **Covered** --- Insurer or Corporate covers the service; patient\n    pays co-pay where applicable.\n-   **Pre-Auth Required** --- Insurer prior authorization is required\n    before the service can be performed or invoiced.",
+    "start_line": 231,
+    "end_line": 238
+  },
+  {
+    "chunk_id": "service-order-section-status-and-coverage-reference-authorization-status",
+    "document": "service-order-rag.md",
+    "heading": "Authorization Status",
+    "heading_level": 3,
+    "heading_path": [
+      "Service Order Section",
+      "Status and Coverage Reference",
+      "Authorization Status"
+    ],
+    "content": "-----------------------------------------------------------------------\n  Authorization Status                Meaning\n  ----------------------------------- -----------------------------------\n  Approved                            Insurer approved the service for\n                                      billing\n\n  Partially Approved                  Approved at a different quantity or\n                                      amount than requested\n\n  Denied                              Insurer declined coverage; denial\n                                      code and rejection reason may\n                                      appear\n\n  Empty                               No authorization request submitted\n                                      yet\n  -----------------------------------------------------------------------\n\n------------------------------------------------------------------------",
+    "text": "# Service Order Section\n## Status and Coverage Reference\n### Authorization Status\n\n-----------------------------------------------------------------------\n  Authorization Status                Meaning\n  ----------------------------------- -----------------------------------\n  Approved                            Insurer approved the service for\n                                      billing\n\n  Partially Approved                  Approved at a different quantity or\n                                      amount than requested\n\n  Denied                              Insurer declined coverage; denial\n                                      code and rejection reason may\n                                      appear\n\n  Empty                               No authorization request submitted\n                                      yet\n  -----------------------------------------------------------------------\n\n------------------------------------------------------------------------",
+    "start_line": 239,
+    "end_line": 259
+  },
+  {
+    "chunk_id": "service-order-section-repeating-a-service",
+    "document": "service-order-rag.md",
+    "heading": "Repeating a Service",
+    "heading_level": 2,
+    "heading_path": [
+      "Service Order Section",
+      "Repeating a Service"
+    ],
+    "content": "The **Repeat** action creates a new linked order for the same service.",
+    "text": "# Service Order Section\n## Repeating a Service\n\nThe **Repeat** action creates a new linked order for the same service.",
+    "start_line": 260,
+    "end_line": 263
+  },
+  {
+    "chunk_id": "service-order-section-repeating-a-service-how-to-repeat-a-service",
+    "document": "service-order-rag.md",
+    "heading": "How to Repeat a Service",
+    "heading_level": 3,
+    "heading_path": [
+      "Service Order Section",
+      "Repeating a Service",
+      "How to Repeat a Service"
+    ],
+    "content": "1.  Locate the order and click **Repeat**.\n2.  Confirm the service name and code.\n3.  Set the quantity.\n4.  Optionally enter a note, such as \"Repeat after 48 hours\".\n5.  Click **Repeat Service**.",
+    "text": "# Service Order Section\n## Repeating a Service\n### How to Repeat a Service\n\n1.  Locate the order and click **Repeat**.\n2.  Confirm the service name and code.\n3.  Set the quantity.\n4.  Optionally enter a note, such as \"Repeat after 48 hours\".\n5.  Click **Repeat Service**.",
+    "start_line": 264,
+    "end_line": 271
+  },
+  {
+    "chunk_id": "service-order-section-repeating-a-service-tip-repeated-badge",
+    "document": "service-order-rag.md",
+    "heading": "Tip: Repeated Badge",
+    "heading_level": 3,
+    "heading_path": [
+      "Service Order Section",
+      "Repeating a Service",
+      "Tip: Repeated Badge"
+    ],
+    "content": "After repeating, the original order shows a **Repeated** badge. Hover\nover the badge to read repeat notes. The new order is a standard Pending\norder.\n\n------------------------------------------------------------------------",
+    "text": "# Service Order Section\n## Repeating a Service\n### Tip: Repeated Badge\n\nAfter repeating, the original order shows a **Repeated** badge. Hover\nover the badge to read repeat notes. The new order is a standard Pending\norder.\n\n------------------------------------------------------------------------",
+    "start_line": 272,
+    "end_line": 279
+  },
+  {
+    "chunk_id": "service-order-section-removing-orders",
+    "document": "service-order-rag.md",
+    "heading": "Removing Orders",
+    "heading_level": 2,
+    "heading_path": [
+      "Service Order Section",
+      "Removing Orders"
+    ],
+    "content": "Click the trash icon in the Actions column to delete an eligible order.\n\n  Blocking Condition           Result\n  ---------------------------- ----------------------------\n  Order is Completed           Cannot delete\n  Order has been billed        Cannot delete\n  Order is part of a Package   Cannot delete individually",
+    "text": "# Service Order Section\n## Removing Orders\n\nClick the trash icon in the Actions column to delete an eligible order.\n\n  Blocking Condition           Result\n  ---------------------------- ----------------------------\n  Order is Completed           Cannot delete\n  Order has been billed        Cannot delete\n  Order is part of a Package   Cannot delete individually",
+    "start_line": 280,
+    "end_line": 289
+  },
+  {
+    "chunk_id": "service-order-section-removing-orders-note",
+    "document": "service-order-rag.md",
+    "heading": "Note",
+    "heading_level": 3,
+    "heading_path": [
+      "Service Order Section",
+      "Removing Orders",
+      "Note"
+    ],
+    "content": "An eligible Pending or PreAuth Pending order that is not billed and is\nnot part of a package is deleted immediately without a confirmation\nprompt.\n\n------------------------------------------------------------------------",
+    "text": "# Service Order Section\n## Removing Orders\n### Note\n\nAn eligible Pending or PreAuth Pending order that is not billed and is\nnot part of a package is deleted immediately without a confirmation\nprompt.\n\n------------------------------------------------------------------------",
+    "start_line": 290,
+    "end_line": 297
+  },
+  {
+    "chunk_id": "service-order-section-deleting-a-package",
+    "document": "service-order-rag.md",
+    "heading": "Deleting a Package",
+    "heading_level": 2,
+    "heading_path": [
+      "Service Order Section",
+      "Deleting a Package"
+    ],
+    "content": "An entire package can be deleted only when all services are Pending or\nPreAuth Pending and none have been billed.",
+    "text": "# Service Order Section\n## Deleting a Package\n\nAn entire package can be deleted only when all services are Pending or\nPreAuth Pending and none have been billed.",
+    "start_line": 298,
+    "end_line": 302
+  },
+  {
+    "chunk_id": "service-order-section-deleting-a-package-how-to-delete-a-package",
+    "document": "service-order-rag.md",
+    "heading": "How to Delete a Package",
+    "heading_level": 3,
+    "heading_path": [
+      "Service Order Section",
+      "Deleting a Package",
+      "How to Delete a Package"
+    ],
+    "content": "1.  Find the package badge in the Service column.\n2.  Click the trash icon inside the package badge.\n3.  Review the package name and number of services in the confirmation\n    modal.\n4.  Click **Delete Package**.",
+    "text": "# Service Order Section\n## Deleting a Package\n### How to Delete a Package\n\n1.  Find the package badge in the Service column.\n2.  Click the trash icon inside the package badge.\n3.  Review the package name and number of services in the confirmation\n    modal.\n4.  Click **Delete Package**.",
+    "start_line": 303,
+    "end_line": 310
+  },
+  {
+    "chunk_id": "service-order-section-deleting-a-package-warning",
+    "document": "service-order-rag.md",
+    "heading": "Warning",
+    "heading_level": 3,
+    "heading_path": [
+      "Service Order Section",
+      "Deleting a Package",
+      "Warning"
+    ],
+    "content": "If even one order in the package is Completed or invoiced, the package\ndelete action is unavailable.\n\n------------------------------------------------------------------------",
+    "text": "# Service Order Section\n## Deleting a Package\n### Warning\n\nIf even one order in the package is Completed or invoiced, the package\ndelete action is unavailable.\n\n------------------------------------------------------------------------",
+    "start_line": 311,
+    "end_line": 317
+  },
+  {
+    "chunk_id": "service-order-section-viewing-lab-reports",
+    "document": "service-order-rag.md",
+    "heading": "Viewing Lab Reports",
+    "heading_level": 2,
+    "heading_path": [
+      "Service Order Section",
+      "Viewing Lab Reports"
+    ],
+    "content": "For Completed Lab orders, a **View Lab Report** action appears.\n\n1.  Locate the completed Lab order in Investigations.\n2.  Click the View Lab Report icon.\n3.  The Lab Report Preview Modal opens for the patient and visit.\n4.  The user remains on the consultation screen.\n\n------------------------------------------------------------------------",
+    "text": "# Service Order Section\n## Viewing Lab Reports\n\nFor Completed Lab orders, a **View Lab Report** action appears.\n\n1.  Locate the completed Lab order in Investigations.\n2.  Click the View Lab Report icon.\n3.  The Lab Report Preview Modal opens for the patient and visit.\n4.  The user remains on the consultation screen.\n\n------------------------------------------------------------------------",
+    "start_line": 318,
+    "end_line": 328
+  },
+  {
+    "chunk_id": "service-order-section-radiology-pdf-reports",
+    "document": "service-order-rag.md",
+    "heading": "Radiology PDF Reports",
+    "heading_level": 2,
+    "heading_path": [
+      "Service Order Section",
+      "Radiology PDF Reports"
+    ],
+    "content": "For Completed Radiology orders, users can view or download the PDF\nreport.\n\n  Action         Behaviour\n  -------------- ---------------------------------------\n  View PDF       Opens the PDF in a full-screen viewer\n  Download PDF   Downloads the PDF directly\n\nIf a PDF has not yet been generated, the system requests generation and\nthen opens or downloads the newly created report.\n\n------------------------------------------------------------------------",
+    "text": "# Service Order Section\n## Radiology PDF Reports\n\nFor Completed Radiology orders, users can view or download the PDF\nreport.\n\n  Action         Behaviour\n  -------------- ---------------------------------------\n  View PDF       Opens the PDF in a full-screen viewer\n  Download PDF   Downloads the PDF directly\n\nIf a PDF has not yet been generated, the system requests generation and\nthen opens or downloads the newly created report.\n\n------------------------------------------------------------------------",
+    "start_line": 329,
+    "end_line": 343
+  },
+  {
+    "chunk_id": "service-order-section-insurance-rule-alerts",
+    "document": "service-order-rag.md",
+    "heading": "Insurance Rule Alerts",
+    "heading_level": 2,
+    "heading_path": [
+      "Service Order Section",
+      "Insurance Rule Alerts"
+    ],
+    "content": "Insurance Rule Alerts are available only in **Insurance mode**.\n\n  -----------------------------------------------------------------------\n  Alert Type                          Meaning\n  ----------------------------------- -----------------------------------\n  Hard Block                          Strict rule violation requiring\n                                      review and doctor override to\n                                      proceed\n\n  Soft Warning                        Potential issue that should be\n                                      reviewed\n\n  Info                                Coding, documentation, or coverage\n                                      guidance\n  -----------------------------------------------------------------------\n\nEach alert may contain the domain, message, suggested action, source\nreference, affected CPT codes, and confidence score.",
+    "text": "# Service Order Section\n## Insurance Rule Alerts\n\nInsurance Rule Alerts are available only in **Insurance mode**.\n\n  -----------------------------------------------------------------------\n  Alert Type                          Meaning\n  ----------------------------------- -----------------------------------\n  Hard Block                          Strict rule violation requiring\n                                      review and doctor override to\n                                      proceed\n\n  Soft Warning                        Potential issue that should be\n                                      reviewed\n\n  Info                                Coding, documentation, or coverage\n                                      guidance\n  -----------------------------------------------------------------------\n\nEach alert may contain the domain, message, suggested action, source\nreference, affected CPT codes, and confidence score.",
+    "start_line": 344,
+    "end_line": 364
+  },
+  {
+    "chunk_id": "service-order-section-insurance-rule-alerts-doctor-override",
+    "document": "service-order-rag.md",
+    "heading": "Doctor Override",
+    "heading_level": 3,
+    "heading_path": [
+      "Service Order Section",
+      "Insurance Rule Alerts",
+      "Doctor Override"
+    ],
+    "content": "1.  Click **Override** on the Hard Block alert.\n2.  Enter the clinical justification.\n3.  Click **Confirm Override**.\n4.  The override and reason are recorded in the audit trail.",
+    "text": "# Service Order Section\n## Insurance Rule Alerts\n### Doctor Override\n\n1.  Click **Override** on the Hard Block alert.\n2.  Enter the clinical justification.\n3.  Click **Confirm Override**.\n4.  The override and reason are recorded in the audit trail.",
+    "start_line": 365,
+    "end_line": 371
+  },
+  {
+    "chunk_id": "service-order-section-insurance-rule-alerts-warning",
+    "document": "service-order-rag.md",
+    "heading": "Warning",
+    "heading_level": 3,
+    "heading_path": [
+      "Service Order Section",
+      "Insurance Rule Alerts",
+      "Warning"
+    ],
+    "content": "A doctor override does not guarantee insurer payment. It records the\nclinician's decision to proceed.\n\n------------------------------------------------------------------------",
+    "text": "# Service Order Section\n## Insurance Rule Alerts\n### Warning\n\nA doctor override does not guarantee insurer payment. It records the\nclinician's decision to proceed.\n\n------------------------------------------------------------------------",
+    "start_line": 372,
+    "end_line": 378
+  },
+  {
+    "chunk_id": "service-order-section-price-visibility",
+    "document": "service-order-rag.md",
+    "heading": "Price Visibility",
+    "heading_level": 2,
+    "heading_path": [
+      "Service Order Section",
+      "Price Visibility"
+    ],
+    "content": "Price visibility depends on the logged-in user's role.\n\n  ---------------------------------------------------------------------------------\n  Role                                Price Visibility\n  ----------------------------------- ---------------------------------------------\n  Doctor                              Hidden by default unless\n                                      `REACT_APP_DOCTOR_CAREBOARD_SHOWPRICE=true`\n\n  All other roles                     Always visible\n  ---------------------------------------------------------------------------------\n\nThe Co-Pay column is hidden in Cash mode.\n\n------------------------------------------------------------------------",
+    "text": "# Service Order Section\n## Price Visibility\n\nPrice visibility depends on the logged-in user's role.\n\n  ---------------------------------------------------------------------------------\n  Role                                Price Visibility\n  ----------------------------------- ---------------------------------------------\n  Doctor                              Hidden by default unless\n                                      `REACT_APP_DOCTOR_CAREBOARD_SHOWPRICE=true`\n\n  All other roles                     Always visible\n  ---------------------------------------------------------------------------------\n\nThe Co-Pay column is hidden in Cash mode.\n\n------------------------------------------------------------------------",
+    "start_line": 379,
+    "end_line": 395
+  },
+  {
+    "chunk_id": "service-order-section-quick-reference",
+    "document": "service-order-rag.md",
+    "heading": "Quick Reference",
+    "heading_level": 2,
+    "heading_path": [
+      "Service Order Section",
+      "Quick Reference"
+    ],
+    "content": "Action                   Purpose\n  ------------------------ -----------------------------------------------\n  \\+ Order Services        Open the Order Modal\n  Repeat                   Create a linked repeat order\n  Delete                   Delete an eligible Pending/unbilled order\n  Delete Package           Remove an eligible package and all its orders\n  View Lab Report          Open a completed Lab report\n  View Radiology PDF       Open a completed Radiology PDF\n  Download Radiology PDF   Download the completed report\n  Override                 Record a clinical override for a Hard Block",
+    "text": "# Service Order Section\n## Quick Reference\n\nAction                   Purpose\n  ------------------------ -----------------------------------------------\n  \\+ Order Services        Open the Order Modal\n  Repeat                   Create a linked repeat order\n  Delete                   Delete an eligible Pending/unbilled order\n  Delete Package           Remove an eligible package and all its orders\n  View Lab Report          Open a completed Lab report\n  View Radiology PDF       Open a completed Radiology PDF\n  Download Radiology PDF   Download the completed report\n  Override                 Record a clinical override for a Hard Block",
+    "start_line": 396,
+    "end_line": 408
+  },
+  {
+    "chunk_id": "service-order-section-quick-reference-delete-and-repeat-eligibility",
+    "document": "service-order-rag.md",
+    "heading": "Delete and Repeat Eligibility",
+    "heading_level": 3,
+    "heading_path": [
+      "Service Order Section",
+      "Quick Reference",
+      "Delete and Repeat Eligibility"
+    ],
+    "content": "Status            Can Delete?          Can Repeat?\n  ----------------- -------------------- -------------\n  Pending           Yes, if not billed   Yes\n  PreAuth Pending   Yes, if not billed   Yes\n  In Progress       No                   Yes\n  Completed         No                   Yes\n  Cancelled         No                   Yes",
+    "text": "# Service Order Section\n## Quick Reference\n### Delete and Repeat Eligibility\n\nStatus            Can Delete?          Can Repeat?\n  ----------------- -------------------- -------------\n  Pending           Yes, if not billed   Yes\n  PreAuth Pending   Yes, if not billed   Yes\n  In Progress       No                   Yes\n  Completed         No                   Yes\n  Cancelled         No                   Yes",
+    "start_line": 409,
+    "end_line": 417
+  }
+]

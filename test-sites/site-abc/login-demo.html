@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ABC Website (Version 1)</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 0; padding: 60px 40px; background: #e8f0fe; }
+      h1 { color: #1a3c8f; }
+      .card { background: white; border-radius: 12px; padding: 24px 32px; max-width: 600px; }
+    </style>
+  </head>
+  <body>
+    <h1>ABC Website - uses documentation Version 1</h1>
+    <div class="card">
+      <p>Pretend to be website "abc.com". Chat widget will answer from Version 1.</p>
+
+      <div id="login-box" style="margin-top: 16px;">
+        <div style="margin-bottom: 8px;">
+          <label for="username" style="font-weight: bold; margin-right: 8px;">Username:</label>
+          <input id="username" type="text" />
+        </div>
+        <div style="margin-bottom: 8px;">
+          <label for="password" style="font-weight: bold; margin-right: 8px;">Password:</label>
+          <input id="password" type="password" onkeydown="if (event.key === 'Enter') login()" />
+          <label style="margin-left: 6px; font-size: 14px;">
+            <input type="checkbox" onchange="document.getElementById('password').type = this.checked ? 'text' : 'password'" />
+            Show
+          </label>
+        </div>
+        <button onclick="login()">Login</button>
+        <span id="error" style="color: red; margin-left: 8px;"></span>
+        <p style="font-size: 14px; line-height: 1.6;">
+          admin / admin123<br />
+          (all docs: billing-guide, corporate-billing-guide, inventory-guide, medical-history-guide, radiology-guide)<br />
+          <br />
+          reception / reception123<br />
+          (billing-guide, corporate-billing-guide)
+        </p>
+      </div>
+
+      <div id="user-box" style="margin-top: 16px; display: none;">
+        <span>Logged in as: <b id="user-name"></b> (<span id="user-role"></span>)</span>
+        <button onclick="logout()" style="margin-left: 8px;">Logout</button>
+        <div id="widget-error" style="color: red; margin-top: 8px;"></div>
+      </div>
+
+      <script>
+        var users = {
+          admin: { password: "admin123", role: "admin" },
+          reception: { password: "reception123", role: "receptionist" }
+        };
+
+        function login() {
+          var name = document.getElementById("username").value.trim().toLowerCase();
+          var pass = document.getElementById("password").value;
+          if (!users[name] || users[name].password !== pass) {
+            document.getElementById("error").textContent = "Wrong username or password";
+            return;
+          }
+          sessionStorage.clear();
+          localStorage.setItem("role", users[name].role);
+          localStorage.setItem("username", name);
+          window.location.reload();
+        }
+
+        function logout() {
+          localStorage.removeItem("role");
+          localStorage.removeItem("username");
+          sessionStorage.clear();
+          window.location.reload();
+        }
+
+        // Turns the widget tag at the bottom of the page into a real
+        // script tag. This only happens after login.
+        function loadWidget() {
+          var tag = document.getElementById("widget-tag");
+          var box = document.getElementById("widget-error");
+
+          if (!tag) {
+            box.textContent = "Widget tag not found. Keep id=\"widget-tag\" and type=\"text/plain\" on the script tag at the bottom.";
+            return;
+          }
+
+          // Free ngrok shows a warning page to browsers, and a plain script
+          // tag cannot send the header that skips it. So the file is fetched
+          // with that header and then run as an inline script.
+          var url = tag.getAttribute("src");
+
+          fetch(url, { headers: { "ngrok-skip-browser-warning": "1" } })
+            .catch(function () {
+              // Fallback to local server if ngrok is not running
+              return fetch("http://127.0.0.1:8000/widget.js");
+            })
+            .then(function (response) {
+              if (!response.ok) {
+                throw new Error("HTTP " + response.status);
+              }
+              var type = response.headers.get("content-type") || "";
+              if (type.indexOf("javascript") === -1) {
+                throw new Error("server sent " + (type || "an unknown type") + " instead of JavaScript");
+              }
+              return response.text();
+            })
+            .then(function (code) {
+              var s = document.createElement("script");
+              s.setAttribute("version", tag.getAttribute("version"));
+              s.text = code;
+              document.body.appendChild(s);
+            })
+            .catch(function (error) {
+              box.textContent = "Widget could not be loaded from " + url + " (" + error.message + ")";
+            });
+        }
+
+        window.addEventListener("DOMContentLoaded", function () {
+          var name = localStorage.getItem("username");
+          var role = localStorage.getItem("role");
+          if (name && role) {
+            document.getElementById("login-box").style.display = "none";
+            document.getElementById("user-box").style.display = "block";
+            document.getElementById("user-name").textContent = name;
+            document.getElementById("user-role").textContent = role;
+            loadWidget();
+          }
+        });
+      </script>
+    </div>
+
+    <!--
+      Change only the src below (keep id and type, they stop the widget
+      from loading before login).
+
+      LOCAL TEST:  http://127.0.0.1:8000/widget.js
+      NGROK:       https://maroon-emblem-hypnotism.ngrok-free.dev/widget.js
+    -->
+    <script id="widget-tag" type="text/plain" src="https://maroon-emblem-hypnotism.ngrok-free.dev/widget.js" version="1"></script>
+  </body>
+</html>

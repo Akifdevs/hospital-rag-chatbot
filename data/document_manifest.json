@@ -1,0 +1,12 @@
+{
+  "document": "service-order-rag.md",
+  "document_sha256": "f1c0e96f139675aa37fd1d5441b4fb034cbc29bf21a8dcdc66d3608f75d8086b",
+  "document_version": 3,
+  "index_version": 3,
+  "collection_name": "service_order_v3",
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "embedding_dimension": 384,
+  "chunk_count": 35,
+  "status": "ready",
+  "indexed_at": "2026-08-27T16:50:36.759425+00:00"
+}

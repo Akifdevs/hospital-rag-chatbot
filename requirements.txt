@@ -1,0 +1,9 @@
+huggingface_hub
+pymysql
+openai
+fastapi
+uvicorn
+sentence-transformers
+pyspellchecker
+sqlalchemy
+python-dotenv
